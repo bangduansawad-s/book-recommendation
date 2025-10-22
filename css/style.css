@@ -28,7 +28,7 @@
   font-family: 'Sarabun', sans-serif;
 }
 
-.o-box {
-  background-color: #ffdda7 ;  /* สีพื้นหลังของกล่อง */
+.yellow-box {
+  background-color: #fcf0ad ;  /* สีพื้นหลังของกล่อง */
   color: white; 
 }
