@@ -1,0 +1,34 @@
+.orange-box {
+  background-color: #CB714F ;  /* สีพื้นหลังของกล่อง */
+  color: white; 
+}
+
+
+.text {
+  color:#DBC47D; /* กำหนดให้ตัวอักษร */
+}
+
+.indented-box {
+  text-indent: 30px;       /* ย่อบรรทัดแรก 30 พิกเซล */
+}
+
+.playpen-thai {
+  font-family: 'Playpen Sans Thai', sans-serif;
+  font-weight: 500;
+}
+
+.athiti-light {
+  font-family: 'Athiti', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+
+}
+
+.sarabun-text {
+  font-family: 'Sarabun', sans-serif;
+}
+
+.grey-box {
+  background-color: #ffdda7 ;  /* สีพื้นหลังของกล่อง */
+  color: white; 
+}
