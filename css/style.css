@@ -1,33 +1,93 @@
-.orange-box {
-  background-color: #CB714F ;  /* สีพื้นหลังของกล่อง */
-  color: white; 
+  
+
+
+   .orange-box {
+     background-color: #CB714F;
+     /* สีพื้นหลังของกล่อง */
+     color: white;
+   }
+
+   .yellow-text {
+     color: #e9df24;
+     /* เปลี่ยนข้อความเป็นสีขาว */
+   }
+
+   .text {
+     color: #ffffff;
+     /* กำหนดให้ตัวอักษร */
+   }
+
+   .indented-box {
+     text-indent: 30px;
+     /* ย่อบรรทัดแรก 30 พิกเซล */
+   }
+
+   .playpen-thai {
+     font-family: 'Playpen Sans Thai', sans-serif;
+     font-weight: 500;
+
+   }
+
+   .athiti-light {
+     font-family: 'Athiti', sans-serif;
+     font-weight: 500;
+
+   }
+
+   .sarabun-text {
+     font-family: 'Sarabun', sans-serif;
+   }
+
+   .yellow-box {
+     background-color: #DEDA81;
+     /* สีพื้นหลังของกล่อง */
+   }
+
+   body {
+     background: #245E4D;
+   }
+
+   .image-overlay-container {
+     position: relative;
+     width: 100%;
+     max-width: 800px;
+     margin: auto;
+     overflow: hidden;
+   }
+
+   .image-overlay-container img {
+     width: 100%;
+     display: block;
+   }
+   
+.image-overlay-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* คลุมดำแบบโปร่งใส */
+  z-index: 1;
 }
 
-
-.text {
-  color:#DBC47D; /* กำหนดให้ตัวอักษร */
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  z-index: 2;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding: 1rem;
 }
 
-.indented-box {
-  text-indent: 30px;       /* ย่อบรรทัดแรก 30 พิกเซล */
-}
-
-.playpen-thai {
-  font-family: 'Playpen Sans Thai', sans-serif;
-  font-weight: 500;
-}
-
-.athiti-light {
-  font-family: 'Athiti', sans-serif;
-  font-weight: 300;
-  font-size: 30px;
-
-}
-
-.sarabun-text {
-  font-family: 'Sarabun', sans-serif;
-}
-
-.yellow-box {
-  background-color: #fff2aa ;  /* สีพื้นหลังของกล่อง */
+.background-fullscreen {
+    background-image: url('images/your-image.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
 }
